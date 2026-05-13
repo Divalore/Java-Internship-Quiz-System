@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox spacing="15" alignment="CENTER"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.quizsystem.controller.LoginController"
-        style="-fx-padding: 30;">
+<VBox stylesheets="@style.css" alignment="CENTER" prefHeight="412.0"
+      prefWidth="597.0"
+      spacing="15" style="-fx-padding: 30;"
+      xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      fx:controller="com.example.quizsystem.controller.LoginController">
 
-    <Label text="Exam System Login"
-            style="-fx-font-size:22px; -fx-font-weight:bold;"></Label>
-    <TextField fx:id="usernameField"
-               promptText="Username"
-                prefWidth="250"
-                style="-fx-font-size:14px"></TextField>
-    <PasswordField fx:id="passwordField"
-                   promptText="Password"
-                   prefWidth="250"
-                   style="-fx-font-size: 14px;"></PasswordField>
-    <Button text="Login"
-            onAction="#handleLogin"
-            prefWidth="200"
-            style="-fx-font-size:14px"></Button>
+    <Label prefHeight="50.0" prefWidth="202.0" style="-fx-font-size:22px; -fx-font-weight:bold;" text="Exam System Login" />
+    <TextField fx:id="usernameField" prefHeight="39.0" prefWidth="532.0" promptText="Username" style="-fx-font-size:14px" />
+    <PasswordField fx:id="passwordField" prefHeight="40.0" prefWidth="535.0" promptText="Password" style="-fx-font-size: 14px;" />
+    <Button onAction="#handleLogin" prefHeight="33.0" prefWidth="200" style="-fx-font-size:14px" text="Login" />
 </VBox>

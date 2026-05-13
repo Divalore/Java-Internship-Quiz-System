@@ -1,0 +1,19 @@
+.button{
+-fx-background-color:#2D9CDB;
+-fx-text-fill:white;
+-fx-font-weight:bold;
+-fx-background-radius:5px;
+-fx-cursor: hand;
+}
+
+.button:hover{
+-fx-background-color: #1A73A8;
+}
+.text-field, .password-field{
+-fx-background-radius:5px;
+-fx-border-color:#aaaaaa;
+-fx-border-radius: 5px;
+-fx-text-fill: #000000;
+-fx-font-size:14px;
+-fx-prompt-text-fill: #555555;
+-fx-padding: 8px;}
